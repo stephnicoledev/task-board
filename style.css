@@ -1,0 +1,93 @@
+:root {
+    /* label colors */
+    --red: rgb(248, 56, 56);
+    --gold: rgb(230, 175, 73);
+    --green: rgb(67, 207, 149);
+    --blue: rgb(0, 110, 255);
+    --pink: rgb(248, 105, 248);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 35px 10px;
+}
+
+.list {
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    width: 300px;
+}
+
+.title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.cards {
+    margin: 15px 0;
+}
+
+.card {
+    background-color:rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+    list-style: none;
+    border-radius: 2px;
+    box-shadow: 0 4px 2px -2px #bbb;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.card:hover {
+    background-color: #c5c7c9;
+}
+
+.label {
+    width: 35px;
+    height: 8px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+a:hover {
+    color: black;
+}
+
+.prep {
+    background-color: var(--red);
+}
+
+.general {
+    background-color: var(--gold);
+}
+
+.plumbing {
+    background-color: var(--green);
+}
+
+.electrical {
+    background-color: var(--blue);
+}
+
+.finish {
+    background-color: var(--pink);
+}
