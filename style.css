@@ -21,15 +21,14 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    margin: 35px 10px;
+    gap: 20px;
+    margin: 50px;
 }
 
 .list {
     background-color: #ddd;
     padding: 10px;
     border-radius: 3px;
-    width: 300px;
 }
 
 .title {
