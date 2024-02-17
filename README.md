@@ -14,3 +14,7 @@ This is a project that mimics a Kanban-style list-making application such as <a 
 **Tech used:** HTML, CSS
 
 - Utilized CSS Flexbox and Grid to ensure a responsive design.
+
+## Improvements To Make:
+
+- Arrange lists in a column for mobile devices.
